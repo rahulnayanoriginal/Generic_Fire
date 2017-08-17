@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.parasajmera.genericfire.Login2">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="337dp"
+        android:layout_height="41dp"
+        android:text="Enter Email Address "
+        android:textColor="@color/back"
+
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="26dp"
+        android:layout_marginTop="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="324dp"
+        android:layout_height="43dp"
+        android:hint="abc@gmail.com"
+        android:background="@android:color/holo_orange_light"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="67dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/textView" />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="337dp"
+        android:layout_height="41dp"
+        android:textColor="@color/back"
+        android:text="Enter Password"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteY="131dp"
+        tools:layout_editor_absoluteX="16dp"
+        android:layout_below="@+id/editText"
+        android:layout_alignStart="@+id/textView"
+        android:layout_marginTop="14dp" />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="324dp"
+        android:layout_height="43dp"
+        android:hint="********"
+        android:background="@android:color/holo_orange_light"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:layout_editor_absoluteY="172dp"
+        tools:layout_editor_absoluteX="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="196dp"
+        android:layout_height="58dp"
+        android:background="@android:color/holo_green_light"
+        android:text="Log In"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="240dp"
+        android:layout_marginStart="56dp"
+        android:layout_below="@+id/editText2"
+        android:layout_alignStart="@+id/editText2"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:layout_width="196dp"
+        android:layout_height="58dp"
+        android:background="@android:color/transparent"
+        android:text="Forgot password"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="318dp"
+        android:id="@+id/button4"
+        android:layout_below="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
+
+</RelativeLayout>

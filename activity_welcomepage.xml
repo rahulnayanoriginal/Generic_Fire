@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context="com.example.parasajmera.genericfire.Welcomepage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="welcome to Generic Medicine&amp;health care"
+        android:id="@+id/textView"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/imageView"
+        android:layout_alignStart="@+id/imageView"
+        android:textColor="#f7b161"
+        android:gravity="center"
+        android:textSize="20dp">
+
+    </TextView>
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="Enter Your Symptoms"
+        android:textSize="15dp"
+        android:padding="10dp"
+        android:background="@drawable/border"
+        android:inputType="textEmailAddress"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="21dp"
+        android:layout_alignStart="@+id/textView" />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:textColor="#f7f7f9"
+        android:text="Search"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:background="#3bd3f2"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="61dp"
+        android:id="@+id/button10" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"></ImageView>
+
+</RelativeLayout>
+
+
+
